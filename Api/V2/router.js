@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Product = require("../model/products"); // Import model dengan benar
+const Product = require("../../model/products"); // Import model dengan benar
 const bodyParser = require("body-parser");
 
 router.use(bodyParser.json());
